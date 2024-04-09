@@ -1,16 +1,19 @@
 body{
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
 }
-
+.bodyy {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #3d4142, #000000);
+    display: flex;
+    justify-content: space-between;
+}
 .sidebar {
     background-color: #000;
     color: #fff;
     width: 250px;
     height: 100vh;
-    position: fixed;
     top: 0;
     left: 0;
     padding: 20px;
@@ -36,25 +39,51 @@ body{
     margin: 0;
 }
 
-.main {
+/* .main {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top, #441cd6, #8530e6);
     display: flex;
     align-items: center;
     justify-content: center;
+    
+} */
+.main {
+    background: white;
+    min-height: 90vh;
+    width: 70%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
-.header h1 {
+.header {
+    /* background-color: #000; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo{
     background-color: #000;
     color: #fff;
-    font-size: 24px;
-    padding: 10px 20px;
-    padding-left: 40px;
-    padding-right: 0;
+    font-size: 20px;
+    padding: 8px 20px;
     border-radius: 30px;
+    margin-top: 20px;
     align-items: center;
-
 }
 
 .icons {
@@ -63,8 +92,9 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    padding: 10px;
-    padding-top: 12px;
+    height: 50px;
+    padding: 6px;
+    align-items: center;
     padding-right: 0;
     margin-top: 20px;
 
