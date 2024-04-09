@@ -1,12 +1,84 @@
 body{
-    background-image: linear-gradient(to left bottom);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.navbar {
-    background-color: #6f7275;
-    overflow: hidden;
-    border-bottom: 1px solid #333;
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.profile p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+.main {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #441cd6, #8530e6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    padding-left: 40px;
+    padding-right: 0;
+    border-radius: 30px;
+    align-items: center;
+
+}
+
+.icons {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-right: 0;
+    margin-top: 20px;
+
+}
+.icons img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#square {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
