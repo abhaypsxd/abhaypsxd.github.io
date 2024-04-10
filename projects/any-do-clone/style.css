@@ -212,9 +212,32 @@ body{
     height: fit-content;
     padding-bottom: 20px;
 }
+
+#day-1 {
+    font-size: 14px;
+    color: #82888f;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#day-0 {
+    font-size: 14px;
+    color: #82888f;
+    margin: auto;
+    margin-left: 10px;
+
+}
+
+
 .day h3 {
     font-size: 16px;
 }
+
+.day-heading {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .task {
     background-color: #333;
